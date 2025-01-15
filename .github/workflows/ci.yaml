@@ -2,7 +2,6 @@ name: 'Push protein paint image'
 
 on:
   workflow_dispatch:
-   
 env:
   ACR_NAME: sjcmpbdtacr
   ACR_SERVER: sjcmpbdtacr.azurecr.io
