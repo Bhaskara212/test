@@ -1,0 +1,21 @@
+name: 'Push protein paint image'
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch name to build the image from'
+        required: true
+        default: 'feature-01'
+
+jobs:
+  print-values:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set values for A and b
+        run: |
+          A="Value for A"
+          b="Value for b"
+          echo "A: $A"
+          echo "b: $b"
