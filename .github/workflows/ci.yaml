@@ -2,11 +2,7 @@ name: 'Push protein paint image'
 
 on:
   workflow_dispatch:
-    inputs:
-      branch:
-        description: 'Branch name to build the image from'
-        required: true
-        default: 'feature/cg-01'
+   
 env:
   ACR_NAME: sjcmpbdtacr
   ACR_SERVER: sjcmpbdtacr.azurecr.io
