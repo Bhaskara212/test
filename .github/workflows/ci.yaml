@@ -6,7 +6,7 @@ on:
       branch:
         description: 'Branch name to build the image from'
         required: true
-        default: 'feature-01'
+        default: 'feature/cg-01'
 env:
   ACR_NAME: sjcmpbdtacr
   ACR_SERVER: sjcmpbdtacr.azurecr.io
